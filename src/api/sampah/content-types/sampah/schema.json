@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sampahs",
+  "info": {
+    "singularName": "sampah",
+    "pluralName": "sampahs",
+    "displayName": "Sampah",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sumber": {
+      "type": "string"
+    },
+    "sisamakanan": {
+      "type": "decimal"
+    },
+    "plastik": {
+      "type": "decimal"
+    },
+    "kertas": {
+      "type": "decimal"
+    },
+    "kain": {
+      "type": "decimal"
+    },
+    "kayu": {
+      "type": "decimal"
+    },
+    "kaca": {
+      "type": "decimal"
+    },
+    "kaleng": {
+      "type": "decimal"
+    },
+    "karet": {
+      "type": "decimal"
+    }
+  }
+}
